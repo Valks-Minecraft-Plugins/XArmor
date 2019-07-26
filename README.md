@@ -1,5 +1,9 @@
 # XArmor
 
+Download latest release [here](https://github.com/valkyrienyanko/XArmor/releases).
+
+Only 25% of the plugin works, please see [this issue](https://github.com/valkyrienyanko/XArmor/issues/1) to find out why.
+
 Different colored leather armors give different perks.
 
 The more armor pieces you have the greater the effect.
@@ -13,8 +17,6 @@ Black = Slow + Confuse Attacker on Hit
 
 ### Full Armor Set Effects
 Orange = Fire Resistance
-
-Download latest release [here](https://github.com/valkyrienyanko/XArmor/releases).
 
 Config
 ```yml
