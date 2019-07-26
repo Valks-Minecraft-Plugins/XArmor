@@ -41,7 +41,8 @@ public class InvClick implements Listener {
 					if (colors[1] > -1) { // Green
 						Utils.removePotionEffect(e.getWhoClicked(), PotionEffectType.HEALTH_BOOST);
 						e.getWhoClicked().addPotionEffect(new PotionEffect(PotionEffectType.HEALTH_BOOST, XArmor.INFINITY, colors[1]));
-					} else {
+					} else if (colors[8] > -1) {
+						
 						Utils.removePotionEffect(e.getWhoClicked(), PotionEffectType.HEALTH_BOOST);
 					}
 				}
@@ -62,7 +63,10 @@ public class InvClick implements Listener {
 						e.getWhoClicked().addPotionEffect(new PotionEffect(PotionEffectType.HEALTH_BOOST, XArmor.INFINITY, colors[8]));
 					} else {
 						Utils.removePotionEffect(e.getWhoClicked(), PotionEffectType.DAMAGE_RESISTANCE);
-						Utils.removePotionEffect(e.getWhoClicked(), PotionEffectType.HEALTH_BOOST);
+						if (colors[1] <= -1) { // Green
+							Utils.removePotionEffect(e.getWhoClicked(), PotionEffectType.HEALTH_BOOST);
+						}
+						
 					}
 				}
 

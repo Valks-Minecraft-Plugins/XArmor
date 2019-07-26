@@ -9,20 +9,20 @@ import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.potion.PotionEffectType;
 
 public class Utils {
-	public final static Color COLOR_BLACK = Color.fromRGB(0x191919);
-	public final static Color COLOR_GREEN = Color.fromRGB(0x667F33);
-	public final static Color COLOR_LIME = Color.fromRGB(0x72A526);
-	public final static Color COLOR_RED = Color.fromRGB(0x9F8134);
-	public final static Color COLOR_GRAY = Color.fromRGB(0x756640);
-	public final static Color COLOR_LIGHT_GRAY = Color.fromRGB(0xA39F69);
-	public final static Color COLOR_YELLOW = Color.fromRGB(0xADA539);
-	public final static Color COLOR_ORANGE = Color.fromRGB(0xBD8F4E);
-	public final static Color COLOR_WHITE = Color.fromRGB(0xDEC7A6);
-	public final static Color COLOR_PURPLE = Color.fromRGB(0xC896C5);
-	public final static Color COLOR_CYAN = Color.fromRGB(0x8B8BB0);
-	public final static Color COLOR_PINK = Color.fromRGB(0xD192BB);
-	public final static Color COLOR_LIGHT_BLUE = Color.fromRGB(0xA39DD4);
-	public final static Color COLOR_MAGENTA = Color.fromRGB(0xAA74D6);
+	public final static Color COLOR_BLACK = Color.fromRGB(0x191919); // Checked
+	public final static Color COLOR_GREEN = Color.fromRGB(0x667F33); // Checked
+	public final static Color COLOR_LIME = Color.fromRGB(0x4C7219); // Checked
+	public final static Color COLOR_RED = Color.fromRGB(0x85602C); // Checked
+	public final static Color COLOR_GRAY = Color.fromRGB(0x68563C); // Checked
+	public final static Color COLOR_LIGHT_GRAY = Color.fromRGB(0x80776A); // Checked
+	public final static Color COLOR_YELLOW = Color.fromRGB(0xB2AE4E); // Checked
+	public final static Color COLOR_ORANGE = Color.fromRGB(0xC59640); // Checked
+	public final static Color COLOR_WHITE = Color.fromRGB(0xFFFFFF); // Checked
+	public final static Color COLOR_PURPLE = Color.fromRGB(0xBB7A8C); // Checked
+	public final static Color COLOR_CYAN = Color.fromRGB(0xAF96B7); // Checked
+	public final static Color COLOR_PINK = Color.fromRGB(0xD67C98); // Checked
+	public final static Color COLOR_LIGHT_BLUE = Color.fromRGB(0xB6C1B5); // Checked
+	public final static Color COLOR_MAGENTA = Color.fromRGB(0x9E71CF); // Checked
 
 	public static void removePotionEffect(LivingEntity entity, PotionEffectType type) {
 		if (entity.hasPotionEffect(type)) {
