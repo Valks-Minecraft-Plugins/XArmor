@@ -9,14 +9,14 @@ Different colored leather armors give different perks.
 The more armor pieces you have the greater the effect.
 
 ### Per Armor Piece Effects
-Green = Health Boost
-Light Blue = Damage Resistance
-White = Damage Resistance + Health Boost + Set Chance to Regenerate on Hit
-Orange = Set Chance to Increase Damage on Hit
-Black = Slow + Confuse Attacker on Hit
+- Green = Health Boost
+- Light Blue = Damage Resistance
+- White = Damage Resistance + Health Boost + Set Chance to Regenerate on Hit
+- Orange = Set Chance to Increase Damage on Hit
+- Black = Slow + Confuse Attacker on Hit
 
 ### Full Armor Set Effects
-Orange = Fire Resistance
+- Orange = Fire Resistance
 
 Config
 ```yml
